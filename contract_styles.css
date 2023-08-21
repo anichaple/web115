@@ -1,0 +1,25 @@
+body {
+    background-color: lightcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+}
+
+#my-image {
+    display: inline;
+    text-align: center;
+    max-height: 300px;
+}
+
+header {
+	display: float;
+	}
+
+header > figure {
+	float: right;
+	}
+
+h1 {
+    display: block;
+    text-align: left;
+}
+

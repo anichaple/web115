@@ -1,1 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
+.div_container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.div_container img {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  left: 300%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 50px;
+  padding-bottom: 300px;
+}
+
+.card {
+  background: rgb(226, 221, 221);
+  width: 230px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-image {
+  background-color: none;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+  background-image: url("IMG_4055.jpeg");
+  background-position: center;
+}
+
+.card-2 {
+  background-image: url("IMG_2128.jpeg");
+  background-position: center;
+}
+
+.card-3 {
+  background-image: url("IMG_2163.jpeg");
+  background-position: center;
+}
+
+.card h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: rgb(69, 88, 90);
+  color: rgb(221, 218, 218);
+  width: 75%;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  border-radius: 15px 15px;
+}
+
+.card:hover {
+  background-color: rgb(69, 88, 90);
+  color: rgb(51, 12, 12);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(184, 178, 173);
+}
+
+.logo {
+  width: 10%;
+}
